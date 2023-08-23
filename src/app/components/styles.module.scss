@@ -1,0 +1,59 @@
+.card {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    background-color: gray;
+}
+
+.navbar {
+    text-align: center;
+    width: 100vw;
+    height: 100px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.flexCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.image {
+    display: flex;
+    justify-content: end;
+}
+
+.price {
+    color: orange;
+}
+
+.footer {
+    width: 100%;
+    height: 500px;
+    background-color: #454545;
+    display: flex;
+    gap: 40px;
+
+    div {
+        width: 100% !important;
+    }
+
+    .footer-child {
+        width: 400px !important;
+    }
+}
+
+.addressBar {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}

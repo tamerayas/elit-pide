@@ -1,0 +1,49 @@
+.main {
+  height: 100vh;
+  width: 100vw;
+}
+
+.content {
+  padding: 0 10% 0 10%;
+  background-color: #f8f8f8;
+}
+
+.slider {
+  width: 100%;
+  height: auto;
+
+  // :hover {
+  //   transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  // }
+}
+
+.menus {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+
+  div {
+    width: 100%;
+
+    .subtitle {
+      display: flex;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 16px;
+    }
+  }
+
+  div.ant-row, div.ant-col {
+    margin: 0 !important;
+    padding: 0 !important; 
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .content {
+    padding: 0px;
+  }
+}
+
+
