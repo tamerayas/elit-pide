@@ -1,3 +1,5 @@
+"use client"
+
 import styles from './page.module.scss'
 import Navbar from './components/Navbar'
 import Card from './components/Card'

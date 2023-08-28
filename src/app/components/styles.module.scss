@@ -36,7 +36,7 @@
 .footer {
     width: 100%;
     height: 500px;
-    background-color: #454545;
+    // background-color: #454545;
     display: flex;
     gap: 40px;
 
@@ -44,7 +44,7 @@
         width: 100% !important;
     }
 
-    .footer-child {
+    .footerChild {
         width: 400px !important;
     }
 }
@@ -56,4 +56,8 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 30px;
+}
+
+.divider {
+    height: 100%;
 }
