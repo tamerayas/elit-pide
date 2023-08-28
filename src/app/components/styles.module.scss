@@ -35,10 +35,10 @@
 
 .footer {
     width: 100%;
-    height: 500px;
-    // background-color: #454545;
+    background: linear-gradient(45deg, black, transparent);
     display: flex;
     gap: 40px;
+    padding: 0 10% 0 10%;
 
     div {
         width: 100% !important;
@@ -46,6 +46,24 @@
 
     .footerChild {
         width: 400px !important;
+    }
+
+    span {
+        color: #393939;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .footerContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 450px;
+    
+        .copyright {
+            text-align: center;
+            color: #fff;
+        }
     }
 }
 
